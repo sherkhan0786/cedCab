@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/cabbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-light {
+    background-color: #eaf0ff;
+}
+
+ .navbar-brand {
+    color: rgb(25 135 84) !important;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.header{
+    background:#fcb407;;
+}
+
+footer{
+    background: #fcb407;;
+}
+
+nav {
+    color: #198754;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: #198754;
+}
+.main{
+    position: relative;
+}
+
+.forrm{
+    box-shadow: 7px 6px 6px 6px;
+    border-radius: 10px;
+}
+.input-group-text, .form-select, #weight{
+    background: none;
+    background-color: #ebe6e6;
+    border: none;
+}
+
+.btn-block{
+    width: 100%;
+    /* color: #fcb407; */
+}
+
+.btn-block :hover{
+    color:#198754;
+    background:  #fcb407;
+}
+
+.result{
+    color:white;
+}
+
+.fa{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 575px)
+{
+    body{
+      /* margin-left: 50px; */
+      background: inherit;
+      margin-top: 0;
+    }
+    h1{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    .forrm{
+        box-shadow: none;
+    }
+    
+}
+
+
+
+
+
+/* User Section */
+
+.sbar{
+    /* background: #fcb407; */
+    color:black;
+    /* height: 100vh; */
+}
+
+.sbaritem{
+    background: #fcb407;
+    border:1px solid black;
+    color:black;
+
+}
+
+.linkItem{
+    color: black;
+    font-family: serif;
+}
+
+
+.dataTables_wrapper{
+    background: #fff;
+}
